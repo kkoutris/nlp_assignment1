@@ -1,0 +1,4 @@
+table,dims,words in full table,type coverage,"type coverage, words seen ≥ 5 times",token coverage,most frequent missing words
+glove-50,50,1291147,0.6869579772154283,0.958090924925971,0.99086023541984,".., , sci-fi, low-budget, film-making, 2., make-up, 10., b-movie, and/or, so-called, 3."
+glove-300,300,1291147,0.6869579772154283,0.958090924925971,0.99086023541984,".., , sci-fi, low-budget, film-making, 2., make-up, 10., b-movie, and/or, so-called, 3."
+fasttext,300,999994,0.7468903976315762,0.9855425883992336,0.9796237296606137,"n't, ``, '', `, 10/10, 1/2, 8/10, 7/10, and/or, 3/10, 4/10, 1/10"

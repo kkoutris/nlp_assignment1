@@ -1,0 +1,12 @@
+{
+  "Embed-and-pool \u00b7 mean \u00b7 fasttext (fine-tuned)": {
+    "device": "cuda",
+    "identical predictions": true,
+    "agreement": 1.0
+  },
+  "GRU \u00b7 max \u00b7 fasttext (frozen)": {
+    "device": "cuda",
+    "identical predictions": true,
+    "agreement": 1.0
+  }
+}

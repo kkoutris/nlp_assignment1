@@ -1,0 +1,28 @@
+{
+  "system": "pool",
+  "config": {
+    "encoder": "pool",
+    "embedding": "fasttext",
+    "filter": "no-stopwords-but-sentiment",
+    "pooling": "mean",
+    "init": "pretrained",
+    "train_embeddings": true,
+    "hidden": [
+      50,
+      50
+    ],
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "patience": 3
+  },
+  "num_models": 15,
+  "single_model_accuracy_mean": 0.8829064678229861,
+  "single_model_accuracy_std": 0.003825404109807534,
+  "majority_vote": {
+    "accuracy": 0.8914734965148322,
+    "macro_f1": 0.8914682234357731
+  }
+}
