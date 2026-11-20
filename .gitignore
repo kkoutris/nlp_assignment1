@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv
+results_recomputed/
+cache.nosync/
+.venv.nosync/
+results_part2_recomputed/

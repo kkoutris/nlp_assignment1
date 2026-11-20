@@ -11,3 +11,8 @@ tokenizers
 datasets
 baycomp
 tqdm
+nltk
+jax
+numpyro
+arviz
+tabulate
